@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url(./IMAGE/organic\ food\ background.jpg);
+        }
+        nav{
+           height: 90px;
+           border: 2px solid black;
+           margin-top: 5px;
+           margin-left: 2px;
+           margin-right: 2px;
+        }
+       
+        
+        .navbar div img{
+            height: 70px;
+            float: left;
+            padding-left: 10px;
+            margin-top: 5px;
+            /* border: 2px solid black; */
+        }
+        /* .navbar div img:hover{ */
+             /* color: gray; */
+        
+        .navbar li{
+            list-style: none;
+            float: left;
+            padding: 15px;
+        }
+
+        /* to move all ul menus at rite side */
+        .navbar ul{
+            padding-left: 720px;
+            /* border: 2px solid palevioletred; */
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            text-transform: upper;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: right;
+            /* border: 2px solid palegreen; */
+        }
+        .navbar ul li a:hover{
+            color: tomato;
+        }
+        .orgenfood{
+            /* display: block; */
+            margin-top: 1%;
+            padding-left: 25%;
+            /* margin-left: 00px; */
+            /* margin-right: auto; */
+            height: 300px;
+            /* display: block; */
+            /* margin-left: auto; */
+            /* margin-right: auto; */
+        }
+        .orgenfood:hover{
+            color: tomato;
+        }
+        button{
+            /* text-align: center; */
+            /* display: flex; */
+            /* justify-c/ontent: center; */
+            /* align-items: center; */
+            margin-left: 550px;
+            margin-top: 30px;
+            height: 45px;
+            width: 150px;
+            font-size: large;
+            border-radius: 10px;
+            border-color: brown;
+            background-color: darkgreen;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: x-large;
+        }
+        button:hover{
+            background-color: aqua;
+             color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div><img src="./IMAGE/download.png" alt=""></div>
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="About">About</a></li>
+                <li><a href="shop">Shop</a></li>
+                <li><a href="news">News</a></li>
+                <li><a href="contect">Contect</a></li>
+                <li><a href=""><i id="tr" class="fa-solid fa-magnifying-glass"></i></a>
+                <li><a href=""><i class="fa fa-cart-shopping"></i></a></li>    
+            </ul>
+
+        </nav>
+    </header>
+    <div class="">
+        <img class="orgenfood" src="./IMAGE/FOR WEB.png" alt="">
+    </div>
+        <button>Order Now</button>
+</body>
+</html>
